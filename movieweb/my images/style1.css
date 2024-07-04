@@ -1,0 +1,57 @@
+.card{
+padding: 10px;
+margin: 10px;
+margin-left: auto;
+margin-right: auto;
+background-attachment: fixed;
+background-image: linear-gradient(teal,red,cyan);
+border-radius: 20px;
+border-width: 2px;
+border-color: black;
+
+
+
+}
+body{
+    background-color: black;
+}
+img:hover{
+    cursor: pointer;
+    transform: scale(0.5);
+    transition: all 2s;
+    
+    
+
+}
+.card::before{
+
+
+    transition: all 1s ease-in-out;
+}
+.card::after{
+    transition: all 2 ease-in-out;
+}
+.card:hover{
+background-image: linear-gradient(rgb(60, 128, 0),rgb(45, 7, 232),green);
+transition: all 1s;
+transform: scale(0.5);
+box-shadow: inset;
+}
+
+button{
+    width: 100px;
+    padding: 25x;
+    position: sticky;
+    
+}
+ audio{
+    opacity: 0%;
+ }
+ 
+.footer li{
+    background-color: aquamarine;
+    padding: 10px;
+    margin: 10px;
+    bottom: 0;
+    color: yellow;
+}

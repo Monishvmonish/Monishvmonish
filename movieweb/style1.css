@@ -1,0 +1,13 @@
+.card{
+padding: 10px;
+margin: 10px;
+margin-left: auto;
+margin-right: auto;
+
+}
+footer nav,ul,li{
+
+    background-color: yellow;
+    color: cyan;
+    width: 50px;
+}

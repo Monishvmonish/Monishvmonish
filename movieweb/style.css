@@ -1,0 +1,72 @@
+.container-fluid {
+    background-color: black;
+    color: aliceblue;
+
+}
+ button{
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 40px;
+    margin-right: 100px;
+    transition: all 1s;
+ }
+
+ button:hover
+ {
+    background: linear-gradient(90deg,teal,red,cyan);
+    border-radius: 50px;
+    position: static;
+
+ }
+.card,img{
+    padding: 5px;
+    margin: 10px;
+    background:linear-gradient(90deg,teal,rgb(200, 206, 13),rgb(214, 21, 11));
+object-fit: cover;
+margin: 10px;
+
+
+}
+.card{
+
+    padding: 25px;
+    margin-left: auto;
+    margin-right: auto;
+   transition: all 1s ;
+  
+}
+.card:hover{
+    transform: scale(.5);
+    
+    
+    
+}
+
+
+.footer{
+    background-color: rgba(9, 10, 10, 0.615);
+
+}
+
+
+.page-item a{
+    background-color: rgb(47, 230, 10);
+    
+}
+
+.color{
+
+
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+audio{
+    opacity: 0%;
+}
