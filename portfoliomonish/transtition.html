@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 150px;
+height: 150px;
+background-color: aquamarine;
+transition: 2s;
+text-align: center;  
+/* padding: 30px;  */
+ 
+   }
+
+   #id1 {
+    transition-timing-function: ease;
+    border: 2px solid black;
+    margin-top: 10px;justify-content: right;
+   
+   }
+   #id2 {
+    transition-timing-function: ease-in;
+    border: 2px solid black;
+    margin-top: 10px;justify-content: right;
+   }
+   #id3{
+    transition-timing-function: ease-out;
+    border: 2px solid black;
+    margin-top: 10px;justify-content: right;
+   }
+   #id4 {
+    transition-timing-function: ease-in-out;
+    border: 2px solid black;
+    margin-top: 10px;
+    
+    justify-content: right;
+    
+
+   }
+   #id5 {
+    transition-timing-function: linear;
+    border: 2px solid black;
+    margin-top: 10px;
+    justify-content: right;
+   }
+   
+   div:hover{
+    width: 200px;
+    height: 350px;
+    
+
+}
+   /* #center{
+
+justify-content: right;
+   } */
+   
+   </style>
+</head>
+<body>
+    <h1>
+        transition timing
+    </h1>
+    <div id="center">
+    <div id="id1">ease</div>
+    <div id="id2">ease-in</div>
+    <div id="id3"> ease-out</div>
+    <div id="id4">esae-in-out</div>
+    <div id="id5">linear</div>
+    </div></body>
+</html>

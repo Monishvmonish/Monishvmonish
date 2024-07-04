@@ -1,0 +1,120 @@
+body{
+    background-image: linear-gradient(90deg,tan,red,teal);
+    cursor: pointer;
+    
+    
+                
+}
+
+
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p{
+    font-size:medium;
+}
+.about{
+    background-color: white;
+    border-radius: 10px;
+    width: 69%;
+/* background-image: url(./IMG-20240224-WA0082.jpg ); */
+
+
+}
+h2{
+    text-align: left;
+    margin-left: 20px;
+}
+img{
+    margin-top: 0px;
+    padding: 0%;
+    border: 2px solid black;
+    border-radius: 20px;
+    text-align: right;
+}
+/* .image{
+    background-image: linear-gradient(90deg,rgb(128, 0, 119),green,rgb(0, 251, 255),rgb(51, 0, 255));
+} */
+.size{
+
+
+width: 500px;
+height: 400px;
+
+}
+
+.H{
+    text-align: left;
+    margin-left: 40PX;
+    margin-top: 40PX;
+
+}
+header{
+    text-align: left;
+    padding: 40px;
+}
+.project{
+
+background-image: linear-gradient(90deg,teal,green,violet);
+border-radius: 10px;
+width: 1000px;
+}
+.work{
+    background-color: white;
+    border-radius: 9px;
+    width: 1000px;
+    margin-top: 40px;
+    padding: 10px;
+font-family: sans-serif;
+}
+.education{
+
+    background-image: linear-gradient(90deg,red,blue,cyan);
+    border-radius: 10PX;
+    margin-top: 50PX;
+    width: 1000px;
+
+}
+ul,li{
+    display: inline;
+    padding: 30px;
+    font-family: sans-serif;
+    
+    border-radius: 2px;
+    transition: 2s;
+    transition-duration: 2s;
+    
+    
+}
+nav{
+    text-align:right;
+    margin: 40px;
+    margin-bottom: 20px;
+    padding: 20px;
+    font-size: xx-large;
+}
+li:hover{
+border-radius: 200px;
+    background-image: linear-gradient(40deg,red,cyan,rgb(55, 222, 18));
+}
+a {
+font-family: sans-serif;
+color: black;
+}
+button{
+    padding: 6.7px;
+    margin-bottom: 20px;
+}
+button:hover{
+    color: yellowgreen  ;
+    background-image: linear-gradient(red,rgb(128, 0, 0));
+}
+.contact{
+
+
+    background-color: rgba(255, 255, 255, 0.582);
+    width: 500px;
+    font-family: sans-serif;
+    /* padding-bottom: 100px; */
+
+} 
